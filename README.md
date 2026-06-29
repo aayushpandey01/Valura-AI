@@ -2,8 +2,6 @@
 
 > AI co-investor spine: safety guard → intent classifier → specialist agent router → SSE streaming.
 
-**Video walkthrough:** [Link to be added after recording]
-
 ---
 
 ## Quick Start
