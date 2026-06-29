@@ -1,0 +1,18 @@
+{
+  "user_id": "user_001",
+  "name": "Alex Chen",
+  "kyc_status": "verified",
+  "risk_profile": "aggressive",
+  "base_currency": "USD",
+  "investment_horizon_years": 5,
+  "portfolio": {
+    "holdings": [
+      {"ticker": "NVDA", "shares": 200, "avg_cost": 280.00, "purchase_date": "2023-01-15"},
+      {"ticker": "TSLA", "shares": 150, "avg_cost": 220.00, "purchase_date": "2023-03-10"},
+      {"ticker": "MSTR", "shares": 100, "avg_cost": 350.00, "purchase_date": "2023-06-01"},
+      {"ticker": "PLTR", "shares": 500, "avg_cost": 18.00, "purchase_date": "2023-09-20"},
+      {"ticker": "COIN", "shares": 80, "avg_cost": 110.00, "purchase_date": "2024-01-05"}
+    ],
+    "cash_usd": 5000.00
+  }
+}

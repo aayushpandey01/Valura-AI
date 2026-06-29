@@ -1,0 +1,19 @@
+{
+  "user_id": "usr_002",
+  "name": "Priya Sharma",
+  "kyc_status": "verified",
+  "risk_profile": "moderate",
+  "investment_horizon_years": 10,
+  "currency": "USD",
+  "portfolio": {
+    "total_value_usd": 180000,
+    "cash_pct": 2.0,
+    "holdings": [
+      {"ticker": "NVDA", "shares": 120, "avg_cost": 220.00, "current_price": 875.00, "sector": "Technology"},
+      {"ticker": "AAPL", "shares": 50, "avg_cost": 150.00, "current_price": 175.00, "sector": "Technology"},
+      {"ticker": "MSFT", "shares": 30, "avg_cost": 300.00, "current_price": 415.00, "sector": "Technology"}
+    ],
+    "purchase_date": "2021-06-01"
+  },
+  "benchmark": "S&P 500"
+}

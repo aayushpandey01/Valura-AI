@@ -1,0 +1,20 @@
+{
+  "user_id": "user_005",
+  "name": "Robert Johnson",
+  "kyc_status": "verified",
+  "risk_profile": "conservative",
+  "base_currency": "USD",
+  "investment_horizon_years": 3,
+  "portfolio": {
+    "holdings": [
+      {"ticker": "JNJ",  "shares": 200, "avg_cost": 155.00, "purchase_date": "2019-06-10"},
+      {"ticker": "KO",   "shares": 400, "avg_cost": 55.00,  "purchase_date": "2020-01-15"},
+      {"ticker": "PG",   "shares": 150, "avg_cost": 130.00, "purchase_date": "2020-03-20"},
+      {"ticker": "VZ",   "shares": 300, "avg_cost": 58.00,  "purchase_date": "2021-02-08"},
+      {"ticker": "T",    "shares": 500, "avg_cost": 28.00,  "purchase_date": "2021-07-19"},
+      {"ticker": "ABBV", "shares": 100, "avg_cost": 140.00, "purchase_date": "2022-04-11"},
+      {"ticker": "O",    "shares": 200, "avg_cost": 65.00,  "purchase_date": "2022-09-30"}
+    ],
+    "cash_usd": 15000.00
+  }
+}

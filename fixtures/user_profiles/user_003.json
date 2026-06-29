@@ -1,0 +1,22 @@
+{
+  "user_id": "user_003",
+  "name": "Wei Chen",
+  "kyc_status": "verified",
+  "risk_profile": "moderate",
+  "investment_horizon_years": 15,
+  "currency": "EUR",
+  "portfolio": {
+    "total_value_usd": 500000,
+    "cash_pct": 8.0,
+    "holdings": [
+      {"ticker": "ASML.AS", "shares": 50, "avg_cost": 600.00, "current_price": 850.00, "sector": "Technology"},
+      {"ticker": "SAP.DE", "shares": 200, "avg_cost": 120.00, "current_price": 190.00, "sector": "Technology"},
+      {"ticker": "LVMH.PA", "shares": 30, "avg_cost": 700.00, "current_price": 780.00, "sector": "Consumer Discretionary"},
+      {"ticker": "NESN.SW", "shares": 400, "avg_cost": 100.00, "current_price": 95.00, "sector": "Consumer Staples"},
+      {"ticker": "BABA", "shares": 300, "avg_cost": 200.00, "current_price": 72.00, "sector": "Consumer Discretionary"},
+      {"ticker": "VOO", "shares": 100, "avg_cost": 350.00, "current_price": 480.00, "sector": "ETF"}
+    ],
+    "purchase_date": "2020-03-01"
+  },
+  "benchmark": "MSCI World"
+}

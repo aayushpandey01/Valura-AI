@@ -1,0 +1,476 @@
+{
+  "queries": [
+    {
+      "id": "ic_001",
+      "query": "How is my portfolio doing?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_002",
+      "query": "Give me a health check on my investments",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_003",
+      "query": "Am I diversified enough?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_004",
+      "query": "What is my concentration risk?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_005",
+      "query": "How is my portfolio performing against the S&P 500?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_006",
+      "query": "Am I too exposed to tech?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {
+        "sectors": [
+          "technology"
+        ]
+      }
+    },
+    {
+      "id": "ic_007",
+      "query": "Show me my portfolio breakdown",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_008",
+      "query": "Is my portfolio balanced?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_009",
+      "query": "What is my biggest risk right now?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_010",
+      "query": "Analyse my current holdings",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_011",
+      "query": "What is Apple's current stock price?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "AAPL"
+        ]
+      }
+    },
+    {
+      "id": "ic_012",
+      "query": "Tell me about NVDA's recent earnings",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "id": "ic_013",
+      "query": "What is the P/E ratio of Tesla?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "TSLA"
+        ]
+      }
+    },
+    {
+      "id": "ic_014",
+      "query": "Latest news on Microsoft",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "MSFT"
+        ]
+      }
+    },
+    {
+      "id": "ic_015",
+      "query": "How is the semiconductor sector performing?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "sectors": [
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "ic_016",
+      "query": "What is ASML's revenue growth?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "ASML"
+        ]
+      }
+    },
+    {
+      "id": "ic_017",
+      "query": "Compare NVDA and AMD performance",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "NVDA",
+          "AMD"
+        ]
+      }
+    },
+    {
+      "id": "ic_018",
+      "query": "What are analysts saying about Google?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "GOOGL"
+        ]
+      }
+    },
+    {
+      "id": "ic_019",
+      "query": "Is Amazon undervalued?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "AMZN"
+        ]
+      }
+    },
+    {
+      "id": "ic_020",
+      "query": "What is the current market cap of Meta?",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "tickers": [
+          "META"
+        ]
+      }
+    },
+    {
+      "id": "ic_021",
+      "query": "Should I buy more NVDA?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "tickers": [
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "id": "ic_022",
+      "query": "How should I rebalance my portfolio?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_023",
+      "query": "Is now a good time to invest in emerging markets?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "sectors": [
+          "emerging markets"
+        ]
+      }
+    },
+    {
+      "id": "ic_024",
+      "query": "Should I add international exposure to my portfolio?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_025",
+      "query": "What ETFs should I consider for long-term growth?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_026",
+      "query": "How do I reduce my tech concentration?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "sectors": [
+          "technology"
+        ]
+      }
+    },
+    {
+      "id": "ic_027",
+      "query": "Should I add bonds to my portfolio?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_028",
+      "query": "What's a good dividend strategy for retirement?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_029",
+      "query": "Should I dollar-cost average into the market?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_030",
+      "query": "What allocation should I have for a 10 year horizon?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "period_years": 10
+      }
+    },
+    {
+      "id": "ic_031",
+      "query": "If I invest $5000 in AAPL today, how many shares can I buy?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "tickers": [
+          "AAPL"
+        ],
+        "amount": 5000
+      }
+    },
+    {
+      "id": "ic_032",
+      "query": "What is my portfolio's annualized return?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_033",
+      "query": "Calculate the compound interest on $10000 at 7% over 20 years",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "amount": 10000,
+        "rate": 7,
+        "period_years": 20
+      }
+    },
+    {
+      "id": "ic_034",
+      "query": "How much would I need to save monthly to reach $1 million in 30 years?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "amount": 1000000,
+        "period_years": 30
+      }
+    },
+    {
+      "id": "ic_035",
+      "query": "What percentage of my portfolio is in tech?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "sectors": [
+          "technology"
+        ]
+      }
+    },
+    {
+      "id": "ic_036",
+      "query": "What is my Sharpe ratio?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_037",
+      "query": "Calculate the weighted average cost of my NVDA holdings",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "tickers": [
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "id": "ic_038",
+      "query": "If TSLA drops 30%, how much will I lose?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {
+        "tickers": [
+          "TSLA"
+        ]
+      }
+    },
+    {
+      "id": "ic_039",
+      "query": "What is my portfolio beta?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_040",
+      "query": "How much dividend income will I receive this year?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_041",
+      "query": "What will NVDA be worth in 5 years?",
+      "expected_agent": "predictive_analysis",
+      "expected_entities": {
+        "tickers": [
+          "NVDA"
+        ],
+        "period_years": 5
+      }
+    },
+    {
+      "id": "ic_042",
+      "query": "What is the probability of a market correction?",
+      "expected_agent": "predictive_analysis",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_043",
+      "query": "Project my portfolio value in 10 years at current returns",
+      "expected_agent": "predictive_analysis",
+      "expected_entities": {
+        "period_years": 10
+      }
+    },
+    {
+      "id": "ic_044",
+      "query": "What is the growth forecast for the AI sector?",
+      "expected_agent": "predictive_analysis",
+      "expected_entities": {
+        "sectors": [
+          "artificial intelligence"
+        ]
+      }
+    },
+    {
+      "id": "ic_045",
+      "query": "Will Apple stock go up this year?",
+      "expected_agent": "predictive_analysis",
+      "expected_entities": {
+        "tickers": [
+          "AAPL"
+        ]
+      }
+    },
+    {
+      "id": "ic_046",
+      "query": "How do I reset my account password?",
+      "expected_agent": "support",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_047",
+      "query": "Can you explain what a P/E ratio is?",
+      "expected_agent": "support",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_048",
+      "query": "How do I add a new holding to my portfolio?",
+      "expected_agent": "support",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_049",
+      "query": "What does beta mean in investing?",
+      "expected_agent": "support",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_050",
+      "query": "I have a billing issue with my subscription",
+      "expected_agent": "support",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_051",
+      "query": "Is my NVDA position too large?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {
+        "tickers": [
+          "NVDA"
+        ]
+      }
+    },
+    {
+      "id": "ic_052",
+      "query": "What's my exposure to USD?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_053",
+      "query": "Am I taking on too much risk?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_054",
+      "query": "How much have I made or lost overall?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_055",
+      "query": "Tell me about recent trends in renewable energy stocks",
+      "expected_agent": "market_research",
+      "expected_entities": {
+        "sectors": [
+          "renewable energy"
+        ]
+      }
+    },
+    {
+      "id": "ic_056",
+      "query": "What is the yield on the 10-year US Treasury?",
+      "expected_agent": "market_research",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_057",
+      "query": "Should I sell my VZ position given recent performance?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "tickers": [
+          "VZ"
+        ]
+      }
+    },
+    {
+      "id": "ic_058",
+      "query": "How much of my savings should I invest in stocks vs bonds?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {}
+    },
+    {
+      "id": "ic_059",
+      "query": "Plan for my retirement in 15 years",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {
+        "period_years": 15
+      }
+    },
+    {
+      "id": "ic_060",
+      "query": "What is the risk-adjusted return of my portfolio?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {}
+    }
+  ]
+}

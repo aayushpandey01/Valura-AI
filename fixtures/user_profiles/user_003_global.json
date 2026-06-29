@@ -1,0 +1,19 @@
+{
+  "user_id": "user_003",
+  "name": "Mohammed Al-Rashid",
+  "kyc_status": "verified",
+  "risk_profile": "moderate",
+  "base_currency": "AED",
+  "investment_horizon_years": 15,
+  "portfolio": {
+    "holdings": [
+      {"ticker": "ASML", "shares": 25, "avg_cost": 620.00, "currency": "EUR", "purchase_date": "2022-04-10"},
+      {"ticker": "NESN", "shares": 100, "avg_cost": 110.00, "currency": "CHF", "purchase_date": "2022-07-20"},
+      {"ticker": "BABA", "shares": 200, "avg_cost": 90.00,  "currency": "USD", "purchase_date": "2023-01-05"},
+      {"ticker": "TSM",  "shares": 150, "avg_cost": 95.00,  "currency": "USD", "purchase_date": "2023-05-18"},
+      {"ticker": "SHEL", "shares": 300, "avg_cost": 28.00,  "currency": "GBP", "purchase_date": "2022-11-03"},
+      {"ticker": "SAP",  "shares": 60,  "avg_cost": 130.00, "currency": "EUR", "purchase_date": "2023-08-22"}
+    ],
+    "cash_aed": 50000.00
+  }
+}

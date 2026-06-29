@@ -1,0 +1,39 @@
+{
+  "test_cases": [
+    {
+      "conversation_id": "ts_001",
+      "description": "Calculator then research then strategy",
+      "turns": [
+        {
+          "user": "If I invest 10000 euros in ASML today, what would be my position size?",
+          "expected_agent": "financial_calculator",
+          "expected_entities": {
+            "tickers": [
+              "ASML"
+            ],
+            "amount": 10000
+          }
+        },
+        {
+          "user": "What if I double that amount?",
+          "expected_agent": "financial_calculator",
+          "expected_entities": {
+            "tickers": [
+              "ASML"
+            ],
+            "amount": 20000
+          }
+        },
+        {
+          "user": "Is ASML a good buy at current prices?",
+          "expected_agent": "market_research",
+          "expected_entities": {
+            "tickers": [
+              "ASML"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

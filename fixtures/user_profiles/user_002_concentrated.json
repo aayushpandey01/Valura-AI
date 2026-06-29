@@ -1,0 +1,17 @@
+{
+  "user_id": "user_002",
+  "name": "Sarah Williams",
+  "kyc_status": "verified",
+  "risk_profile": "moderate",
+  "base_currency": "USD",
+  "investment_horizon_years": 10,
+  "portfolio": {
+    "holdings": [
+      {"ticker": "AAPL", "shares": 1500, "avg_cost": 145.00, "purchase_date": "2020-03-20"},
+      {"ticker": "AAPL", "shares": 500, "avg_cost": 175.00, "purchase_date": "2021-09-15"},
+      {"ticker": "MSFT", "shares": 30, "avg_cost": 310.00, "purchase_date": "2022-11-01"},
+      {"ticker": "JNJ",  "shares": 20, "avg_cost": 165.00, "purchase_date": "2023-02-14"}
+    ],
+    "cash_usd": 8500.00
+  }
+}

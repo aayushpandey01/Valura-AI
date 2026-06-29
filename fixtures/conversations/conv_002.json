@@ -1,0 +1,27 @@
+{
+  "conversation_id": "conv_002",
+  "description": "Topic switch — portfolio health to investment strategy",
+  "user_id": "user_002",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "How is my portfolio doing?",
+      "expected_agent": "portfolio_health",
+      "expected_entities": {}
+    },
+    {
+      "turn": 2,
+      "user": "Should I add more tech stocks?",
+      "expected_agent": "investment_strategy",
+      "expected_entities": {"sectors": ["technology"]},
+      "note": "Topic switch from portfolio health to strategy"
+    },
+    {
+      "turn": 3,
+      "user": "What's the current P/E ratio for NVDA?",
+      "expected_agent": "market_research",
+      "expected_entities": {"tickers": ["NVDA"]},
+      "note": "Another topic switch to market research"
+    }
+  ]
+}

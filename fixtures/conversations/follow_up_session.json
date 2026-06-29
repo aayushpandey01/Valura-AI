@@ -1,0 +1,67 @@
+{
+  "test_cases": [
+    {
+      "conversation_id": "fu_001",
+      "description": "User asks about MSFT then says 'what about Apple?' \u2014 ticker should switch",
+      "turns": [
+        {
+          "user": "Tell me about Microsoft's recent performance",
+          "expected_agent": "market_research",
+          "expected_entities": {
+            "tickers": [
+              "MSFT"
+            ]
+          }
+        },
+        {
+          "user": "What about Apple?",
+          "expected_agent": "market_research",
+          "expected_entities": {
+            "tickers": [
+              "AAPL"
+            ]
+          }
+        },
+        {
+          "user": "How does it compare to Google?",
+          "expected_agent": "market_research",
+          "expected_entities": {
+            "tickers": [
+              "AAPL",
+              "GOOGL"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "conversation_id": "fu_002",
+      "description": "Portfolio health then strategy \u2014 agent should switch",
+      "turns": [
+        {
+          "user": "How is my portfolio doing?",
+          "expected_agent": "portfolio_health",
+          "expected_entities": {}
+        },
+        {
+          "user": "Should I add more tech stocks?",
+          "expected_agent": "investment_strategy",
+          "expected_entities": {
+            "sectors": [
+              "technology"
+            ]
+          }
+        },
+        {
+          "user": "What's the current P/E ratio for NVDA?",
+          "expected_agent": "market_research",
+          "expected_entities": {
+            "tickers": [
+              "NVDA"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

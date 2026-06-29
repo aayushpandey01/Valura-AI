@@ -1,0 +1,21 @@
+{
+  "user_id": "user_001",
+  "name": "Arjun Mehta",
+  "kyc_status": "verified",
+  "risk_profile": "aggressive",
+  "investment_horizon_years": 5,
+  "currency": "USD",
+  "portfolio": {
+    "total_value_usd": 250000,
+    "cash_pct": 5.0,
+    "holdings": [
+      {"ticker": "NVDA", "shares": 200, "avg_cost": 450.00, "current_price": 875.00, "sector": "Technology"},
+      {"ticker": "TSLA", "shares": 150, "avg_cost": 200.00, "current_price": 245.00, "sector": "Consumer Discretionary"},
+      {"ticker": "COIN", "shares": 300, "avg_cost": 80.00, "current_price": 220.00, "sector": "Financials"},
+      {"ticker": "MSTR", "shares": 100, "avg_cost": 300.00, "current_price": 1500.00, "sector": "Technology"},
+      {"ticker": "SOFI", "shares": 2000, "avg_cost": 8.00, "current_price": 10.50, "sector": "Financials"}
+    ],
+    "purchase_date": "2022-01-15"
+  },
+  "benchmark": "S&P 500"
+}

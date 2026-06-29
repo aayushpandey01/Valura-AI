@@ -1,0 +1,27 @@
+{
+  "conversation_id": "conv_003",
+  "description": "Compound query with follow-ups and number references",
+  "user_id": "user_003",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "If I invest 10000 euros in ASML today, what would be my position size as a percentage?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {"tickers": ["ASML"], "amount": 10000}
+    },
+    {
+      "turn": 2,
+      "user": "What if I double that amount?",
+      "expected_agent": "financial_calculator",
+      "expected_entities": {"tickers": ["ASML"], "amount": 20000},
+      "note": "'double that amount' = 20000"
+    },
+    {
+      "turn": 3,
+      "user": "Is ASML a good buy at current prices?",
+      "expected_agent": "market_research",
+      "expected_entities": {"tickers": ["ASML"]},
+      "note": "Topic switch to market research; ASML retained from context"
+    }
+  ]
+}

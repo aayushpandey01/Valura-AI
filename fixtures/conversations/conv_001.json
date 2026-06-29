@@ -1,0 +1,27 @@
+{
+  "conversation_id": "conv_001",
+  "description": "Follow-up resolution — user asks about a stock, then asks follow-up",
+  "user_id": "user_001",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Tell me about Microsoft's recent performance",
+      "expected_agent": "market_research",
+      "expected_entities": {"tickers": ["MSFT"]}
+    },
+    {
+      "turn": 2,
+      "user": "What about Apple?",
+      "expected_agent": "market_research",
+      "expected_entities": {"tickers": ["AAPL"]},
+      "note": "Follow-up — 'Apple' replaces 'Microsoft' as the topic"
+    },
+    {
+      "turn": 3,
+      "user": "How does it compare to Google?",
+      "expected_agent": "market_research",
+      "expected_entities": {"tickers": ["AAPL", "GOOGL"]},
+      "note": "'it' refers to Apple from previous turn"
+    }
+  ]
+}

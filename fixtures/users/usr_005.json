@@ -1,0 +1,23 @@
+{
+  "user_id": "usr_005",
+  "name": "Margaret Williams",
+  "kyc_status": "verified",
+  "risk_profile": "conservative",
+  "investment_horizon_years": 8,
+  "currency": "USD",
+  "portfolio": {
+    "total_value_usd": 750000,
+    "cash_pct": 15.0,
+    "holdings": [
+      {"ticker": "JNJ", "shares": 500, "avg_cost": 150.00, "current_price": 145.00, "sector": "Healthcare"},
+      {"ticker": "PG", "shares": 400, "avg_cost": 130.00, "current_price": 165.00, "sector": "Consumer Staples"},
+      {"ticker": "KO", "shares": 1000, "avg_cost": 55.00, "current_price": 62.00, "sector": "Consumer Staples"},
+      {"ticker": "VZ", "shares": 800, "avg_cost": 45.00, "current_price": 38.00, "sector": "Communication Services"},
+      {"ticker": "T", "shares": 2000, "avg_cost": 28.00, "current_price": 17.00, "sector": "Communication Services"},
+      {"ticker": "SCHD", "shares": 300, "avg_cost": 70.00, "current_price": 80.00, "sector": "ETF"},
+      {"ticker": "VYM", "shares": 200, "avg_cost": 105.00, "current_price": 115.00, "sector": "ETF"}
+    ],
+    "purchase_date": "2018-01-10"
+  },
+  "benchmark": "S&P 500"
+}

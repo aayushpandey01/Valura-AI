@@ -1,0 +1,15 @@
+{
+  "user_id": "user_004",
+  "name": "Sam Taylor",
+  "kyc_status": "verified",
+  "risk_profile": "conservative",
+  "investment_horizon_years": 20,
+  "currency": "USD",
+  "portfolio": {
+    "total_value_usd": 0,
+    "cash_pct": 100.0,
+    "holdings": [],
+    "purchase_date": null
+  },
+  "benchmark": "S&P 500"
+}

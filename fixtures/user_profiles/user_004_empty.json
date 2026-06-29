@@ -1,0 +1,12 @@
+{
+  "user_id": "user_004",
+  "name": "Priya Sharma",
+  "kyc_status": "verified",
+  "risk_profile": "conservative",
+  "base_currency": "USD",
+  "investment_horizon_years": 20,
+  "portfolio": {
+    "holdings": [],
+    "cash_usd": 10000.00
+  }
+}

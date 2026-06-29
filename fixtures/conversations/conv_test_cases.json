@@ -1,0 +1,74 @@
+[
+  {
+    "conv_id": "conv_001_followup",
+    "description": "Tests follow-up entity resolution - referencing prior context",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Tell me about Microsoft stock",
+        "expected_agent": "market_research",
+        "expected_entities": {"tickers": ["MSFT"]}
+      },
+      {
+        "role": "user",
+        "content": "What about Apple?",
+        "expected_agent": "market_research",
+        "expected_entities": {"tickers": ["AAPL"]}
+      },
+      {
+        "role": "user",
+        "content": "How do they compare?",
+        "expected_agent": "market_research",
+        "expected_entities": {"tickers": ["MSFT", "AAPL"]}
+      }
+    ]
+  },
+  {
+    "conv_id": "conv_002_topic_switch",
+    "description": "Tests topic switch handling mid-conversation",
+    "turns": [
+      {
+        "role": "user",
+        "content": "How is my portfolio doing?",
+        "expected_agent": "portfolio_health",
+        "expected_entities": {}
+      },
+      {
+        "role": "user",
+        "content": "Actually, can you calculate compound interest on 5000 at 8% for 10 years?",
+        "expected_agent": "financial_calculator",
+        "expected_entities": {"amount": 5000, "rate": 8, "period_years": 10}
+      },
+      {
+        "role": "user",
+        "content": "Now what should I buy?",
+        "expected_agent": "recommendations",
+        "expected_entities": {}
+      }
+    ]
+  },
+  {
+    "conv_id": "conv_003_portfolio",
+    "description": "Tests multi-turn portfolio health discussion",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Give me a complete health check on my portfolio",
+        "expected_agent": "portfolio_health",
+        "expected_entities": {}
+      },
+      {
+        "role": "user",
+        "content": "Am I too concentrated?",
+        "expected_agent": "portfolio_health",
+        "expected_entities": {}
+      },
+      {
+        "role": "user",
+        "content": "What should I do about the concentration risk?",
+        "expected_agent": "recommendations",
+        "expected_entities": {}
+      }
+    ]
+  }
+]
