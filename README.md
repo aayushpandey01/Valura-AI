@@ -1,4 +1,4 @@
-# 🚀 Valura AI – Intelligent Financial Co-Investor
+# 🚀 Valura AI – Intelligent Financial Co Investor
 
 An AI powered financial assistant microservice that intelligently understands user investment queries, routes them to specialized agents, and streams responses in real time using **Server Sent Events (SSE)**.
 
